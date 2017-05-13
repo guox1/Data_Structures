@@ -1,0 +1,11 @@
+1. Why are the functions' runtimes so different?
+
+The larger of the number of numbers, the more times the functions(recursive and Iterative functions) need to run; therefore, it will take more runtimes. However, recursive takes much more time than iterative since it need to keep calling itself again and again. Like if the value is 10, both recursive and iterative take about 0.000000…1 second, but if the value is 40, it takes recursive function to run about 3 seconds, and iterative function takes about 0.000000…1 seconds.
+
+2. Can you think of a way to improve the runtime of the recursive version, while maintaining most of the elegance of the solution? (you DO NOT need to implement it)
+
+It’s good idea to use tail recursive due to tail call can be implemented without adding a new stack frame to the call stack.
+
+3. What indentation/bracketing style did you choose for this assignment and why? (consult the resources page for a link on this)
+
+I use K&R style in this assignment due to I feel like it’s much easier to read and check the code
